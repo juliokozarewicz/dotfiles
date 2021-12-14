@@ -1,0 +1,54 @@
+# INSTALAÇÃO DO XORG
+sudo pacman -s xorg xorg-server xorg-xinit
+
+#INSTALÇÃO DO PICOM
+pacman -S picom
+
+# INSTALAÇÃO DO LIGHTDM
+sudo pacman -S lightdm lightdm-gtk-greeter
+
+# INSTALAÇÃO DO I3
+
+# INSTALAÇÃO TECLADO BR ABNT-2
+
+# INSTALAÇÃO DE FONTS
+/usr/share/fonts
+
+#INSTALAÇÃO FEH
+pacman -S feh
+sudo nvim ~/.xprofile
+feh --bg-scale /home/user/.config/1_wallpapers/2.jpeg 
+
+# INSTALAÇÃO DO EMULADOR DE TERMINAL ALACRITTY
+pacman -S alacritty
+
+# INSTALAÇÃO DO DRIVER DA PLACA DE VIDEO
+pacman -S nvidia nvidia-utils nvidia-libgl mesa xf86-video-intel
+
+# INSTALAÇÃO DO DRIVER DA PLACA DE SOM (ALSA OU PULSEAUDIO)
+pacman -S alsa alsa-utils alsa-driver
+
+# INSTALAÇÃO GIT
+pacman -S git
+
+#INSTALAÇÃO DO THUNAR FILE MANAGER
+pacman -S thunar
+
+#INSTAÇÃO NEOVIM
+pacman -S neovim
+
+# INSTALAÇÃO DO FIREFOX
+pacman -S firefox
+
+# ATUALIZAR REPOSITÓRIO
+pacman -Syyuu
+
+sudo rm /var/lib/pacman/db.lck
+pacman -Syu
+
+#COPIAR OS ARQUIVOS DO REPOSITÓRIO GIT E DAR PERMISSÃO DE ACESSO
+#CONFIGURAR MONITORES (PRIMÁRIO E SECUNDÁRIO) CASO PRECISE
+#INSTALAR UM TEMA PRO LIGHTDM (GLORIOUS)
+
+
+

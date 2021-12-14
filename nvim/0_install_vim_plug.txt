@@ -1,0 +1,9 @@
+
+1 - Instalar o neovim
+
+2 - copiar os arquivos de configurações do repositório git
+
+3 - Instalar o curl e executar o comando:
+
+sh -c 'curl -fLo /home/k0zar3w/.config/nvim/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
