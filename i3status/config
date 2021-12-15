@@ -51,11 +51,11 @@ memory {
 }
 
 tztime local {
-        format = "   %d/%m/%Y  %H:%M:%S    "
+        format = "  %d/%m/%Y  %H:%M:%S    "
 }
 
 cpu_temperature 0 {
-        format = "  %degrees °C "
+        format = " Temperature: %degrees °C "
         path = "/sys/devices/platform/coretemp.0/hwmon/hwmon1/temp1_input"
 }
 
