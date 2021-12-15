@@ -1,0 +1,14 @@
+# lock and suspend
+dm-tool lock && systemctl suspend
+
+# sleep
+systemctl suspend
+
+# lock
+dm-tool lock
+
+# reboot
+systemctl reboot
+
+# shutdown
+systemctl poweroff
