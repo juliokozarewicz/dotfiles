@@ -231,7 +231,8 @@ assign [class="firefox"] $ws2
 assign [class="Thunar"] $ws3
 assign [class="Alacritty"] $ws4
 
-# exec
+# exec (Install: dm-tool, scrot)
 bindsym $mod+l exec dm-tool lock
 bindsym $mod+F4 exec dm-tool lock && systemctl suspend
-
+bindsym --release Print exec "scrot -s '/home/edu/Pictures/%s_%H%M_%d.%m.%Y_$wx$h.jpg'"
+bindsym --release Shift+Print exec "scrot -m '/home/edu/Pictures/%s_%H%M_%d.%m.%Y_$wx$h.jpg'"
