@@ -7,7 +7,8 @@ pacman -S picom
 # INSTALAÇÃO DO LIGHTDM
 sudo pacman -S lightdm lightdm-gtk-greeter
 
-# INSTALAÇÃO DO I3
+# INSTALAÇÃO DO I3-GAPS
+# Instalar o i3wm e i3-gaps (esse para dar espaço entre as janelas)
 
 # INSTALAÇÃO TECLADO BR ABNT-2
 
@@ -17,7 +18,10 @@ sudo pacman -S lightdm lightdm-gtk-greeter
 #INSTALAÇÃO FEH
 pacman -S feh
 sudo nvim ~/.xprofile
-feh --bg-scale /home/user/.config/1_wallpapers/2.jpeg 
+feh --bg-scale /home/user/.config/1_wallpapers/2.jpeg
+
+# INSTAÇÃO DO SCROT PARA PRINTAR A TELA
+pacman -S scrot
 
 # INSTALAÇÃO DO EMULADOR DE TERMINAL ALACRITTY
 pacman -S alacritty

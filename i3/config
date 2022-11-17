@@ -219,7 +219,7 @@ client.unfocused #ABB2BF #282C34 #282C34 #ABB2BF #ABB2BF
 client.urgent #ABB2BF #282C34 #282C34 #ABB2BF #ABB2BF
 
 # remove title bar and set gaps
-for_window [class=".*"] border pixel 2 #*
+for_window [class=".*"] border pixel 2 
 gaps inner 7
 gaps outer 1
 
@@ -234,5 +234,5 @@ assign [class="Alacritty"] $ws4
 # exec (Install: dm-tool, scrot)
 bindsym $mod+l exec dm-tool lock
 bindsym $mod+F4 exec dm-tool lock && systemctl suspend
-bindsym --release Print exec "scrot -s '/home/edu/Pictures/%s_%H%M_%d.%m.%Y_$wx$h.jpg'"
-bindsym --release Shift+Print exec "scrot -m '/home/edu/Pictures/%s_%H%M_%d.%m.%Y_$wx$h.jpg'"
+bindsym --release Print exec "scrot -s '~/Pictures/%s_%H%M_%d.%m.%Y_$wx$h.jpg'"
+bindsym --release Shift+Print exec "scrot -m '~/Pictures/%s_%H%M_%d.%m.%Y_$wx$h.jpg'"
