@@ -21,6 +21,7 @@ sudo nvim ~/.xprofile
 feh --bg-scale /home/user/.config/1_wallpapers/2.jpeg
 
 # INSTAÇÃO DO SCROT PARA PRINTAR A TELA
+# mudar o nome "user" para o do usuário após "# exec (Install: dm-tool, scrot)" nas últimas linhas do arquivo
 pacman -S scrot
 
 # INSTALAÇÃO DO EMULADOR DE TERMINAL ALACRITTY
