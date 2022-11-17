@@ -234,5 +234,5 @@ assign [class="Alacritty"] $ws4
 # exec (Install: dm-tool, scrot)
 bindsym $mod+l exec dm-tool lock
 bindsym $mod+F4 exec dm-tool lock && systemctl suspend
-bindsym --release Print exec "scrot -s '~/Pictures/%s_%H%M_%d.%m.%Y_$wx$h.jpg'"
-bindsym --release Shift+Print exec "scrot -m '~/Pictures/%s_%H%M_%d.%m.%Y_$wx$h.jpg'"
+bindsym --release Print exec "scrot -s '/home/user/Pictures/%s_%H%M_%d.%m.%Y_$wx$h.jpg'"
+bindsym --release Shift+Print exec "scrot -m '/home/user/Pictures/%s_%H%M_%d.%m.%Y_$wx$h.jpg'"
