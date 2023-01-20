@@ -37,7 +37,11 @@ pacman -S alsa alsa-utils alsa-driver
 pacman -S git
 
 #INSTALAÇÃO DO THUNAR FILE MANAGER
+(adicionar alacritty como terminal no "open terminal here" >> command: /usr/bin/alacritty<< )
 pacman -S thunar
+pacman -S thunar-archive-plugin
+pacman -S unzip
+
 
 #INSTAÇÃO NEOVIM
 pacman -S neovim
@@ -50,6 +54,8 @@ pacman -Syyuu
 
 sudo rm /var/lib/pacman/db.lck
 pacman -Syu
+
+
 
 #COPIAR OS ARQUIVOS DO REPOSITÓRIO GIT E DAR PERMISSÃO DE ACESSO
 #CONFIGURAR MONITORES (PRIMÁRIO E SECUNDÁRIO) CASO PRECISE
