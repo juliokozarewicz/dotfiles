@@ -1,0 +1,45 @@
+{
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "workbench.iconTheme": "seti",
+    "workbench.colorTheme": "Monokai",
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "none",
+    "editor.renderControlCharacters": false,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "vim.commandLineModeKeyBindings": [
+
+
+    ],
+
+    "vim.statusBarColorControl": true,
+    "vim.statusBarColors.normal": ["#40423a", "#ffffff"],
+    "vim.statusBarColors.insert": ["#FF5794", "#000000"],
+    "vim.statusBarColors.visual": ["#b2e64c", "#000000"],
+    "vim.statusBarColors.visualline": ["#87C60D", "#000000"],
+    "vim.statusBarColors.visualblock": "#A3BE8C",
+    "vim.statusBarColors.replace": "#D08770",
+    "vim.statusBarColors.commandlineinprogress": "#007ACC",
+    "vim.statusBarColors.searchinprogressmode": "#007ACC",
+    "vim.statusBarColors.easymotionmode": "#007ACC",
+    "vim.statusBarColors.easymotioninputmode": "#007ACC",
+    "vim.statusBarColors.surroundinputmode": "#007ACC",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#87C60D",
+        "statusBar.noFolderBackground": "#87C60D",
+        "statusBar.debuggingBackground": "#87C60D",
+        "statusBar.foreground": "#000000",
+        "statusBar.debuggingForeground": "#000000"
+    },
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "window.menuBarVisibility": "compact",
+    "editor.lineNumbers": "relative",
+    "window.zoomLevel": -1,
+    "editor.fontSize": 12,
+}
